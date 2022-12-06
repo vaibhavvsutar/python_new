@@ -1,0 +1,43 @@
+git --version
+git version 2.38.1.windows.1
+------------------------------
+git clone https://github.com/vaibhavvsutar/python_new.git
+Cloning into 'python_new'...
+warning: You appear to have cloned an empty repository.
+-------------------------------------------------------
+cd python_new
+---------------------------------
+git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+----------------------------------------------------------------
+git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+--------------------------------------------------------------------------
+git add first.py
+---------------------
+git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.py
+----------------------------------------
+git commit -m "part_1 completed"
+[main (root-commit) 4e7478d] part_1 completed
+ 1 file changed, 4 insertions(+)
+ create mode 100644 first.py
+---------------------------------------
